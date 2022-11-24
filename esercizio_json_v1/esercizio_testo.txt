@@ -1,0 +1,3 @@
+Dato il progetto in zip con la tecnologia json
+
+stampare piu righe dei dati json (quindi non solo la riga del messaggio ma almeno 10 righe prese dal jsono dentro la cartella data)

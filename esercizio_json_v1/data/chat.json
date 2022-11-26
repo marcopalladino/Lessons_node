@@ -1,6 +1,62 @@
-{
-  "id":"000001",
-  "nickname":"marco",
-  "message":"test messaggio",
-  "data":"null"
-}
+[
+	{
+		"id": "000001",
+		"nickname": "Marco",
+		"message": "Messaggio di test",
+		"data": "null"
+	},
+	{
+		"id": "000002",
+		"nickname": "Alessandro",
+		"message": "Messaggio numero 2",
+		"data": "null"
+	},
+	{
+		"id": "000003",
+		"nickname": "Giorgio",
+		"message": "Prova",
+		"data": "null"
+	},
+	{
+		"id": "000004",
+		"nickname": "Francesco",
+		"message": "Ciao",
+		"data": "null"
+	},
+	{
+		"id": "000005",
+		"nickname": "Alice",
+		"message": "Alice saluta",
+		"data": "null"
+	},
+	{
+		"id": "000006",
+		"nickname": "Valerio",
+		"message": "Viviamo in una società",
+		"data": "null"
+	},
+	{
+		"id": "000007",
+		"nickname": "Mattia",
+		"message": "テスト (Test)",
+		"data": "null"
+	},
+	{
+		"id": "000008",
+		"nickname": "Gennaro",
+		"message": "Forza Napoli",
+		"data": "null"
+	},
+	{
+		"id": "000009",
+		"nickname": "Giovanni",
+		"message": "Vengo da Cosenza",
+		"data": "null"
+	},
+	{
+		"id": "000010",
+		"nickname": "Joe",
+		"message": "Gioco a Guilty Gear",
+		"data": "null"
+	}
+]

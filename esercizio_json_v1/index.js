@@ -1,37 +1,39 @@
-const express=require('express')
-const app=express()
-const fs=require('fs')
-let path=require('path')
-let bodyParser=require('body-parser')
+const express = require('express');
+const app = express();
+const fs = require('fs');
+const path = require('path');
+const bodyParser = require('body-parser');
 
-let Port =5000
+let port = 5000;
 
-app.use(bodyParser.urlencoded({extended:false}))
-app.get('/',function(req,res){
+app.use(bodyParser.urlencoded({extended: false}));
 
-  res.sendFile(__dirname+"/index.html")
-  
-})
-app.get('/version', function(req,res){
+app.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname + '/index.html'));
+});
 
-  res.send(" version 0.1 ")
-})
-app.get('/login', function(req,res){
+app.get('/login', function(req, res) {
+  res.sendFile(path.join(__dirname + '/views/login.html'));
+});
 
-  res.send(" version 0.1 ")
-})
+app.get('/version', function(req, res) {
+  res.sendFile(path.join(__dirname + '/views/version.html'));
+});
 
-app.get('/chat', function(req,res){
+app.get('/form', function(req, res) {
+  res.sendFile(path.join(__dirname + '/views/input_form1.html'));
+});
 
-  res.send(" version 0.1 ")
-})
+app.get('/chat', function(req, res) {
+  res.sendFile(path.join(__dirname + '/views/chat.html'));
+});
 
-let jsonData=require('./data/chat.json')
-console.log(jsonData)
-console.log(jsonData.message)
+let jsonData = require('./data/chat.json');
+// Parsing JSON e print message
+for (let x in jsonData) {
+	console.log("ID: " + jsonData[x].id + " - Nome: " + jsonData[x].nickname + " - Messaggio: " + jsonData[x].message);
+}
 
-
-app.listen(Port, function(req,res){
- console.log("server listening on "+Port)
- 
-})
+app.listen(port, function(req, res) {
+  console.log('Server listening on Port ' + port);
+});

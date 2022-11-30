@@ -1,6 +1,62 @@
-{
-  "id":"000001",
-  "nickname":"marco",
-  "message":"test messaggio",
-  "data":"null"
-}
+[
+	{
+		"id": "1",
+		"nickname": "Nicholas",
+		"message": "Messaggio di test",
+		"data": "null"
+	},
+	{
+		"id": "2",
+		"nickname": "Alessandro",
+		"message": "Messaggio di test",
+		"data": "null"
+	},
+	{
+		"id": "3",
+		"nickname": "Fabio",
+		"message": "Messaggio di test",
+		"data": "null"
+	},
+	{
+		"id": "4",
+		"nickname": "Andrea",
+		"message": "Messaggio di test",
+		"data": "null"
+	},
+	{
+		"id": "5",
+		"nickname": "Alice",
+		"message": "Messaggio di test",
+		"data": "null"
+	},
+	{
+		"id": "6",
+		"nickname": "Irene",
+		"message": "Messaggio di test",
+		"data": "null"
+	},
+	{
+		"id": "7",
+		"nickname": "Sofia",
+		"message": "Messaggio di test",
+		"data": "null"
+	},
+	{
+		"id": "8",
+		"nickname": "Daniele",
+		"message": "Messaggio di test",
+		"data": "null"
+	},
+	{
+		"id": "9",
+		"nickname": "Giada",
+		"message": "Messaggio di test",
+		"data": "null"
+	},
+	{
+		"id": "10",
+		"nickname": "Chiara",
+		"message": "Messaggio di test",
+		"data": "null"
+	}
+]

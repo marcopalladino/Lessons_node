@@ -3,6 +3,7 @@ const app=express()
 const fs=require('fs')
 let path=require('path')
 let bodyParser=require('body-parser')
+let jsonData=require('./data/chat.json')
 
 let Port =5000
 
@@ -22,14 +23,11 @@ app.get('/login', function(req,res){
 })
 
 app.get('/chat', function(req,res){
-
-  res.send(" version 0.1 ")
+  for (let x in jsonData) {
+  	res.write("ID: " + jsonData[x].id + " - Nome: " + jsonData[x].nickname + " - Messaggio: " + jsonData[x].message + "\n");
+  }
+  res.end();
 })
-
-let jsonData=require('./data/chat.json')
-console.log(jsonData)
-console.log(jsonData.message)
-
 
 app.listen(Port, function(req,res){
  console.log("server listening on "+Port)

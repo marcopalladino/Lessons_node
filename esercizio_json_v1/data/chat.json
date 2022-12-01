@@ -1,6 +1,71 @@
-{
-  "id":"000001",
-  "nickname":"marco",
-  "message":"test messaggio",
-  "data":"null"
-}
+[
+  {
+    "id":"000001",
+    "nickname":"Fabio",
+    "message":"ciao",
+    "data":"1"
+  },
+  
+  {
+    "id":"000002",
+    "nickname":"Andrea",
+    "message":"orso polare viola",
+    "data":"2"
+  },
+  
+  {
+    "id":"000003",
+    "nickname":"Alessandro",
+    "message":"gamingtalker.it",
+    "data":"3"
+  },
+  
+  {
+    "id":"000004",
+    "nickname":"Alessio",
+    "message":"uauafuafdfuff",
+    "data":"4"
+  },
+  
+  {
+    "id":"000005",
+    "nickname":"Eros",
+    "message":"barbabietole da zucchero",
+    "data":"5"
+  },
+  
+  {
+    "id":"000006",
+    "nickname":"Nicholas",
+    "message":"itadakimasu",
+    "data":"6"
+  },
+  
+  {
+    "id":"000007",
+    "nickname":"Simone",
+    "message":"uga buga tonga banga",
+    "data":"7"
+  },
+  
+  {
+    "id":"000008",
+    "nickname":"Loris",
+    "message":"woof",
+    "data":"8"
+  },
+  
+  {
+    "id":"000009",
+    "nickname":"Flavio",
+    "message":"za' fo",
+    "data":"9"
+  },
+  
+  {
+    "id":"000010",
+    "nickname":"Stefano",
+    "message":"LOL",
+    "data":"10"
+  }
+]

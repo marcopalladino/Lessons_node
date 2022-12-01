@@ -1,6 +1,60 @@
-{
+[{
   "id":"000001",
   "nickname":"marco",
   "message":"test messaggio",
-  "data":"null"
-}
+  "data":null
+},
+{
+  "id":"000002",
+  "nickname":"marco",
+  "message":"test messaggio",
+  "data":null
+},
+{
+  "id":"000003",
+  "nickname":"marco",
+  "message":"test messaggio",
+  "data":null
+},
+{
+  "id":"000004",
+  "nickname":"marco",
+  "message":"test messaggio",
+  "data":null
+},
+{
+  "id":"000005",
+  "nickname":"marco",
+  "message":"test messaggio",
+  "data":null
+},
+{
+  "id":"000006",
+  "nickname":"marco",
+  "message":"test messaggio",
+  "data":null
+},
+{
+  "id":"000007",
+  "nickname":"marco",
+  "message":"test messaggio",
+  "data":null
+},
+{
+  "id":"000008",
+  "nickname":"marco",
+  "message":"test messaggio",
+  "data":null
+},
+{
+  "id":"000009",
+  "nickname":"marco",
+  "message":"test messaggio",
+  "data":null
+},
+{
+  "id":"000010",
+  "nickname":"marco",
+  "message":"test messaggio",
+  "data":null
+}]

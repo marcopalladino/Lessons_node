@@ -30,6 +30,11 @@ let jsonData=require('./data/chat.json')
 console.log(jsonData)
 console.log(jsonData.message)
 
+for (i = 0; i < jsonData.length; i ++) {
+  console.log("Dato numero " + i + ":")
+  console.log(jsonData[i])
+}
+
 
 app.listen(Port, function(req,res){
  console.log("server listening on "+Port)
